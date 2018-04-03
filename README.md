@@ -33,4 +33,4 @@ Using
 	Serial.begin(38400); // Baudrate = 38400
 	Serial.print("#E"); // Enable pwm controller
 	Serial.write("A"); // Select "A" servo (pin 40)
-	Serial.write(value); //Set pwm value
+	Serial.write(value); // Set pwm value
