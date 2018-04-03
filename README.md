@@ -32,5 +32,5 @@ Using
 	unsigned char value = 17; // 17*180/100 = 30 degrees
 	Serial.begin(38400); // Baudrate = 38400
 	Serial.print("#E"); // Enable pwm controller
-	Serial.write("A"); // Select servo
+	Serial.write("A"); // Select "A" servo (pin 40)
 	Serial.write(value); //Set pwm value
