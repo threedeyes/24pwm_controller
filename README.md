@@ -25,7 +25,7 @@ Using
 	1. UART baudrate is 38400
 	2. Servo named by capital latin symbols (from A to X).
 	3. Range PWM values: 0 - 99 (from 0 to 180 equivalently)
-	4. For enable/disable pwm timer used #E and #D codes
+	4. For enable / disable pwm timer used #E and #D codes
 
 	Set Servo named "A" to 30 degrees position for example:
 	
