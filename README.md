@@ -27,7 +27,7 @@ Using
 	3. Range PWM values: 0 - 99 (from 0 to 180 equivalently)
 	4. For enable/disable pwm timer used #E and #D codes
 
-	Set Servo named A to 30 degrees position for example:
+	Set Servo named "A" to 30 degrees position for example:
 	
 	unsigned char value = 17; // 17*180/100 = 30 degrees
 	Serial.begin(38400); // Baudrate = 38400
